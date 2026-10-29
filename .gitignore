@@ -1,0 +1,15 @@
+# 个人凭据（只提交示例）
+config/cookies.py
+.env
+.env.*
+!.env.example
+# 运行数据与环境
+*.log
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+build/
+dist/

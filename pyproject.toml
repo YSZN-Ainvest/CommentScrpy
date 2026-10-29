@@ -1,0 +1,13 @@
+[project]
+name = "scrpy-merged"
+version = "0.1.0"
+description = "沪深300成分维护与雪球、东方财富股评串行抓取"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=3.0.6",
+    "requests>=2.34.2",
+]
+
+[tool.uv]
+package = false
